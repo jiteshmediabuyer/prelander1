@@ -105,19 +105,19 @@
     <h1>Why So Many People Over 40 Feel Tired & Drained After Meals</h1>
     <p class="subheadline">Even when they try to eat healthy... A simple daily liquid routine is helping thousands regain steady energy and support healthy blood sugar balance</p>
 
-    <img src="https://picsum.photos/id/1015/800/520" alt="Tired woman" class="hero-image">
+    <img src="https://picsum.photos/id/1015/800/520" class="hero-image">
     <p>If you're over 40 and often experience energy crashes after eating, afternoon fatigue, sugar cravings, or just feel sluggish — you're not alone. Thousands are facing the same issue.</p>
 
     <div class="highlight">
         ⚠️ Many are now discovering it's not only about diet. A natural liquid formula made with powerful plant extracts is helping people support healthy blood sugar levels and feel more energetic all day long.
     </div>
 
-    <img src="https://picsum.photos/id/106/800/520" alt="Sugar Defender Bottle" class="hero-image">
+    <img src="https://picsum.photos/id/106/800/520" class="hero-image">
     <p><strong>Sugar Defender</strong> is an easy-to-use liquid supplement featuring natural ingredients like Ginseng, Gymnema Sylvestre, Maca, African Mango, Guarana, Eleuthero and Chromium.</p>
 
     <a href="#" class="cta">👉 Watch This Short 2-Minute Explanation</a>
 
-    <img src="https://picsum.photos/id/1005/800/520" alt="Happy energetic woman" class="hero-image">
+    <img src="https://picsum.photos/id/1005/800/520" class="hero-image">
 
     <div class="highlight">
         ⭐ Real Users Report Better Energy & Balance<br>
@@ -136,8 +136,8 @@
 </div>
 
 <script>
-// ====================== FINAL FIXED TRACKING SCRIPT ======================
-var baseLink = "https://074426pn07502v4p20hlp-gtdz.hop.clickbank.net/";
+// FINAL SAFE TRACKING
+var baseLink = "https://074426pn07502v4p20hlp-gtdz.hop.clickbank.net/?&extclid=";
 
 function getParam(name) {
   let url = new URL(window.location.href);
@@ -150,14 +150,14 @@ var clickid = getParam("clickid") || getParam("ymid") || getParam("cid") ||
 var finalLink = baseLink;
 
 if (clickid) {
-  finalLink += (baseLink.includes("?") ? "&" : "?") + "extclid=" + encodeURIComponent(clickid);
+  finalLink = baseLink + encodeURIComponent(clickid);
 }
 
 document.querySelectorAll("a.cta, a[href='#'], a[href='']").forEach(function(el) {
   if (el) el.href = finalLink;
 });
 
-console.log("✅ Final Affiliate Link:", finalLink);
+console.log("Final Link:", finalLink);
 </script>
 
 </body>
