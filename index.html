@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Health Insight Report</title>
 
 <style>
-body {font-family: Arial; background:#f5f5f5; margin:0;}
-.container {max-width:600px; margin:auto; background:#fff; padding:20px;}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial; background:#f0f2f5; margin:0; color:#333; }
+.container { max-width:600px; margin:20px auto; background:#fff; padding:25px; border-radius:8px; }
 
-h1 {font-size:24px; line-height:1.3;}
-p {font-size:16px; color:#333;}
+.meta-info { font-size:13px; color:#888; margin-bottom:10px; }
+h1 { font-size:26px; line-height:1.2; color:#111; }
+p { font-size:17px; line-height:1.6; color:#444; }
+
+.highlight { background:#fff9e6; padding:15px; margin:20px 0; border-left:5px solid #ffcc00; border-radius:4px; }
 
 .cta {
 display:block;
 background:#e60023;
 color:white;
 text-align:center;
-padding:15px;
+padding:18px;
+font-size:20px;
 font-weight:bold;
 text-decoration:none;
 margin:20px 0;
-border-radius:5px;
+border-radius:8px;
+box-shadow:0 4px 15px rgba(230,0,35,0.3);
 }
 
-.highlight {
-background:#fff3cd;
-padding:10px;
-margin:15px 0;
-border-left:4px solid orange;
-}
+footer { margin-top:40px; font-size:12px; color:#999; text-align:center; }
 </style>
 </head>
 
@@ -36,35 +37,48 @@ border-left:4px solid orange;
 
 <div class="container">
 
-<h1>Why Blood Sugar Levels May Change After 40 (New Insight)</h1>
+<div class="meta-info">Special Report • Updated 2026</div>
+
+<h1>Why Many People Over 40 Are Experiencing Sudden Energy Drops (New Insight)</h1>
+
+<p>
+If you've noticed your energy dropping after meals or unexplained fatigue during the day, you're not alone.
+Many people over 40 are now reporting similar changes.
+</p>
+
+<!-- 🔥 CTA ABOVE FOLD -->
+<a href="#" class="cta">👉 Watch The Explanation Now</a>
 
 <p>
 Most people believe diet alone controls blood sugar levels.
-However, recent insights suggest there may be additional factors involved...
+However, recent insights suggest there may be additional factors involved beyond just food choices.
 </p>
 
 <div class="highlight">
-⚠️ Some people report experiencing fatigue, weight gain, and low energy linked to this issue.
+⚠️ Some individuals report fatigue, weight gain, and low energy linked to this hidden issue.
 </div>
-
-<a href="#" class="cta">👉 Watch The Explanation</a>
 
 <p>
 A 47-year-old woman experienced frequent energy crashes for years.
-After learning about a simple daily routine, she noticed improvements in her lifestyle.
+After learning about a simple daily routine, she noticed improvements in her overall lifestyle.
 </p>
 
 <a href="#" class="cta">👉 See The Method Now</a>
 
 <p>
-Many individuals are now exploring similar approaches to support their daily energy levels.
+Many individuals are now exploring similar approaches to support their daily energy levels and maintain balance.
 </p>
 
-<a href="#" class="cta">👉 Watch Before It’s Removed</a>
+<a href="#" class="cta">👉 Watch Before This Gets Taken Down</a>
+
+<footer>
+<p>This site is for informational purposes only and is not medical advice.</p>
+<p>© 2026 Health Insight Report</p>
+</footer>
 
 </div>
 
-<!-- 🔥 IMPORTANT SCRIPT (DO NOT REMOVE) -->
+<!-- ✅ TRACKING SCRIPT -->
 <script>
 function getParam(name) {
   let url = new URL(window.location.href);
@@ -72,14 +86,18 @@ function getParam(name) {
 }
 
 var clickid = getParam("clickid");
-var finalLink = "https://qr4uu.bemobtrcks.com/go/9bd3a1ba-18e5-416f-af2d-968d305f0820";
+
+// 👉 ClickBank direct link
+var finalLink = "https://074426pn07502v4p20hlp-gtdz.hop.clickbank.net/";
 
 if(clickid){
-  finalLink += "?clickid=" + clickid;
+  finalLink += "?extclid=" + clickid;
 }
 
 document.querySelectorAll("a").forEach(function(el){
-  el.href = finalLink;
+  if(el.getAttribute('href') === "#" || el.className === "cta") {
+    el.href = finalLink;
+  }
 });
 </script>
 
