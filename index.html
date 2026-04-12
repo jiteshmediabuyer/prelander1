@@ -11,136 +11,406 @@
   <link rel="canonical" href="https://flashdealsindia.github.io/"/>
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Flash Deals India — Free WhatsApp & Telegram Deal Alerts"/>
-  <meta property="og:description" content="Amazon, Flipkart, Myntra ke best deals — minutes mein FREE WhatsApp & Telegram alerts. Join India's #1 deal channel!"/>
+  <meta property="og:description" content="Best deals from Amazon, Flipkart & Myntra — FREE alerts on WhatsApp & Telegram. Join India's #1 deal channel!"/>
   <meta property="og:url" content="https://flashdealsindia.github.io/"/>
   <meta property="og:site_name" content="Flash Deals India"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="Flash Deals India — Best Deals on WhatsApp & Telegram"/>
   <meta name="twitter:description" content="Get Amazon, Flipkart, Myntra deals FREE on WhatsApp & Telegram. Join India's fastest growing deals channel!"/>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Flash Deals India","description":"India's best free deal alerts on WhatsApp and Telegram covering Amazon, Flipkart, Myntra and more.","url":"https://flashdealsindia.github.io/","sameAs":["https://www.instagram.com/flash.dealsindia","https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46","https://t.me/top_flash_deals_india"]}</script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+
   <style>
-    :root{--bg:#0B0F1A;--surface:#111827;--surface2:#1a2235;--accent:#F59E0B;--accent2:#10B981;--tg:#229ED9;--wa:#25D366;--text:#F1F5F9;--muted:#94A3B8;--border:rgba(255,255,255,0.07)}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
-    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:0.35}
-    .blob{position:fixed;border-radius:50%;filter:blur(120px);opacity:0.11;pointer-events:none;z-index:0}
-    .b1{width:600px;height:600px;background:#F59E0B;top:-200px;right:-200px}
-    .b2{width:500px;height:500px;background:#10B981;bottom:100px;left:-150px}
-    .b3{width:400px;height:400px;background:#229ED9;top:50%;left:50%;transform:translate(-50%,-50%)}
-    nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;background:rgba(11,15,26,0.88);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
-    .nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:18px;color:var(--accent);letter-spacing:-0.5px}
-    .nav-logo span{color:var(--text)}
-    .nav-links{display:flex;gap:8px}
-    .nbtn{font-size:12px;font-weight:500;padding:7px 14px;border-radius:20px;text-decoration:none;display:flex;align-items:center;gap:6px;transition:transform 0.2s}
-    .nbtn:hover{transform:translateY(-1px)}
-    .nwa{background:rgba(37,211,102,0.15);color:var(--wa);border:1px solid rgba(37,211,102,0.3)}
-    .ntg{background:rgba(34,158,217,0.15);color:var(--tg);border:1px solid rgba(34,158,217,0.3)}
-    .hero{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 24px 60px}
-    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.25);color:var(--accent);font-size:12px;font-weight:500;padding:6px 16px;border-radius:20px;margin-bottom:28px;letter-spacing:0.5px;animation:fd 0.6s ease both}
-    .eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
-    @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(1.5)}}
-    h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2.2rem,7vw,4.5rem);line-height:1.1;letter-spacing:-2px;margin-bottom:24px;animation:fd 0.6s 0.1s ease both}
-    .hl{background:linear-gradient(135deg,#F59E0B,#FBBF24);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    .hl2{background:linear-gradient(135deg,#25D366,#34D399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    .hl3{background:linear-gradient(135deg,#229ED9,#60CBFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-    .hsub{font-size:clamp(1rem,2.5vw,1.15rem);color:var(--muted);max-width:580px;margin:0 auto 36px;font-weight:300;animation:fd 0.6s 0.2s ease both}
-    .hsub strong{color:var(--text);font-weight:500}
-    .stats{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:40px;animation:fd 0.6s 0.3s ease both}
-    .sc{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 16px;text-align:center}
-    .sc .n{font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;color:var(--accent);display:block}
-    .sc .l{font-size:11px;color:var(--muted)}
-    .ctag{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;animation:fd 0.6s 0.4s ease both}
-    .cbtn{display:inline-flex;align-items:center;gap:10px;font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;padding:16px 32px;border-radius:16px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;position:relative;overflow:hidden}
-    .cbtn::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.15),transparent)}
-    .cbtn:hover{transform:translateY(-3px) scale(1.02)}
-    .cbtn:active{transform:scale(0.98)}
-    .cwa{background:var(--wa);color:#fff;box-shadow:0 0 40px rgba(37,211,102,0.3)}
-    .cwa:hover{box-shadow:0 0 60px rgba(37,211,102,0.5)}
-    .ctg{background:var(--tg);color:#fff;box-shadow:0 0 40px rgba(34,158,217,0.3)}
-    .ctg:hover{box-shadow:0 0 60px rgba(34,158,217,0.5)}
-    .csub{margin-top:14px;font-size:12px;color:var(--muted);animation:fd 0.6s 0.5s ease both}
-    .csub span{color:var(--accent2)}
-    .ticker-wrap{position:relative;z-index:1;background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);overflow:hidden;padding:12px 0}
-    .ticker{display:flex;gap:48px;white-space:nowrap;animation:tick 22s linear infinite}
-    .ti{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);flex-shrink:0}
-    .ti .dot{width:5px;height:5px;border-radius:50%;background:var(--accent)}
-    @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-    .sec{position:relative;z-index:1;padding:80px 24px;max-width:1100px;margin:0 auto}
-    .stag{font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-    .stitle{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;letter-spacing:-1px;margin-bottom:16px}
-    .ssub{color:var(--muted);max-width:500px;font-weight:300;margin-bottom:48px}
-    .jboth{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:0 24px 60px}
-    .jgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-    .jcard{border-radius:24px;padding:32px 28px;display:flex;flex-direction:column;gap:16px;border:1px solid;transition:transform 0.2s;text-decoration:none;position:relative;overflow:hidden}
-    .jcard::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.05),transparent)}
-    .jcard:hover{transform:translateY(-4px)}
-    .jwa{background:rgba(37,211,102,0.08);border-color:rgba(37,211,102,0.25)}
-    .jtg{background:rgba(34,158,217,0.08);border-color:rgba(34,158,217,0.25)}
-    .jicon{font-size:36px}
-    .jtitle{font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800}
-    .jwa .jtitle{color:var(--wa)}
-    .jtg .jtitle{color:var(--tg)}
-    .jdesc{font-size:13px;color:var(--muted);line-height:1.6}
-    .jlist{font-size:12px;color:var(--muted);list-style:none;display:flex;flex-direction:column;gap:6px}
-    .jbtn{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;padding:10px 20px;border-radius:12px;margin-top:auto;color:#fff}
-    .dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-    .dcard{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:24px;transition:transform 0.2s,border-color 0.2s;position:relative;overflow:hidden}
-    .dcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0;transition:opacity 0.2s}
-    .dcard:hover{transform:translateY(-4px);border-color:rgba(245,158,11,0.3)}
-    .dcard:hover::before{opacity:1}
-    .dplat{font-size:11px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
-    .dtitle{font-weight:500;font-size:15px;margin-bottom:14px;line-height:1.4}
-    .dprices{display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap}
-    .dold{font-size:13px;color:var(--muted);text-decoration:line-through}
-    .dnew{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--accent)}
-    .dbadge{background:rgba(239,68,68,0.15);color:#F87171;border:1px solid rgba(239,68,68,0.3);font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px}
-    .dtag{font-size:11px;color:var(--muted);margin-top:10px}
-    .dfooter{margin-top:14px;padding-top:12px;border-top:1px solid var(--border);display:flex;gap:8px}
-    .dget{flex:1;text-align:center;font-size:11px;font-weight:600;padding:7px 10px;border-radius:8px;text-decoration:none;transition:opacity 0.2s}
-    .dget:hover{opacity:0.85}
-    .dwa{background:rgba(37,211,102,0.15);color:var(--wa);border:1px solid rgba(37,211,102,0.3)}
-    .dtgg{background:rgba(34,158,217,0.15);color:var(--tg);border:1px solid rgba(34,158,217,0.3)}
-    .wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-    .wcard{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:28px 24px;transition:transform 0.2s}
-    .wcard:hover{transform:translateY(-3px)}
-    .wicon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:16px}
-    .wtitle{font-family:'Syne',sans-serif;font-weight:700;font-size:17px;margin-bottom:8px}
-    .wdesc{font-size:13px;color:var(--muted);line-height:1.6}
-    .prow{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:36px}
-    .ppill{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:10px 20px;font-weight:500;font-size:14px}
-    .tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-    .tcard{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:24px}
-    .tstars{color:var(--accent);font-size:14px;margin-bottom:12px;letter-spacing:2px}
-    .ttext{font-size:14px;color:var(--muted);line-height:1.7;margin-bottom:16px;font-style:italic}
-    .tauth{display:flex;align-items:center;gap:12px}
-    .tavt{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--bg)}
-    .tname{font-weight:500;font-size:13px}
-    .tloc{font-size:11px;color:var(--muted)}
-    .tvia{font-size:10px;margin-top:2px}
-    .tvwa{color:var(--wa)}
-    .tvtg{color:var(--tg)}
-    .fcta{position:relative;z-index:1;margin:0 24px 80px;border-radius:28px;background:var(--surface);border:1px solid rgba(245,158,11,0.2);padding:60px 32px;text-align:center;overflow:hidden}
-    .fcta::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(37,211,102,0.1),transparent 70%);pointer-events:none}
-    .fcta::after{content:'';position:absolute;bottom:-100px;left:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(34,158,217,0.08),transparent 70%);pointer-events:none}
-    .fcta h2{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:800;letter-spacing:-1px;margin-bottom:16px;position:relative;z-index:1}
-    .fcta p{color:var(--muted);margin-bottom:36px;font-size:15px;position:relative;z-index:1}
-    footer{position:relative;z-index:1;border-top:1px solid var(--border);padding:32px 24px;text-align:center;font-size:12px;color:var(--muted)}
-    footer a{color:var(--accent);text-decoration:none}
-    .reveal{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease}
-    .reveal.visible{opacity:1;transform:translateY(0)}
-    @keyframes fd{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-    @media(max-width:640px){
-      .hero{padding:100px 20px 50px}
-      .nbtn span{display:none}
-      .jgrid{grid-template-columns:1fr}
-      .ctag{flex-direction:column;align-items:center}
-      .cbtn{width:100%;max-width:320px;justify-content:center}
-      .sec{padding:60px 20px}
-      .fcta{margin:0 16px 60px;padding:40px 20px}
+    :root {
+      --bg:      #080C14;
+      --surface: #0E1420;
+      --card:    #131A28;
+      --card2:   #192033;
+      --border:  rgba(255,255,255,0.07);
+      --border2: rgba(255,255,255,0.12);
+      --text:    #EEF2FF;
+      --muted:   #8892A4;
+      --subtle:  #525E72;
+      --gold:    #F5A623;
+      --gold2:   #FBBF24;
+      --wa:      #25D366;
+      --wa2:     #1aad52;
+      --tg:      #2AABEE;
+      --tg2:     #1a8fd1;
+      --red:     #FF4757;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* Subtle grid texture */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Glow blobs */
+    .blob { position: fixed; border-radius: 50%; filter: blur(130px); pointer-events: none; z-index: 0; }
+    .b1 { width: 700px; height: 700px; background: #F5A623; opacity: 0.07; top: -250px; right: -200px; }
+    .b2 { width: 600px; height: 600px; background: #25D366; opacity: 0.06; bottom: 0; left: -200px; }
+    .b3 { width: 500px; height: 500px; background: #2AABEE; opacity: 0.05; top: 40%; left: 45%; transform: translate(-50%,-50%); }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 0 28px; height: 62px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(8,12,20,0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px; letter-spacing: 1.5px;
+      color: var(--text);
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 8px; }
+    .nbtn {
+      font-size: 12px; font-weight: 600;
+      padding: 7px 15px; border-radius: 8px;
+      text-decoration: none;
+      display: flex; align-items: center; gap: 6px;
+      transition: all 0.2s;
+      letter-spacing: 0.2px;
+    }
+    .nwa  { background: rgba(37,211,102,0.12); color: var(--wa);  border: 1px solid rgba(37,211,102,0.25); }
+    .nwa:hover  { background: var(--wa);  color: #fff; }
+    .ntg  { background: rgba(42,171,238,0.12); color: var(--tg);  border: 1px solid rgba(42,171,238,0.25); }
+    .ntg:hover  { background: var(--tg);  color: #fff; }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center;
+      padding: 110px 24px 64px;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(245,166,35,0.1);
+      border: 1px solid rgba(245,166,35,0.25);
+      color: var(--gold);
+      font-size: 11px; font-weight: 700;
+      padding: 6px 16px; border-radius: 20px;
+      margin-bottom: 28px;
+      letter-spacing: 1px; text-transform: uppercase;
+      animation: fd 0.6s ease both;
+    }
+    .eyebrow::before {
+      content: ''; width: 6px; height: 6px;
+      border-radius: 50%; background: var(--gold);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(1.6)} }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      line-height: 0.95;
+      letter-spacing: 2px;
+      color: var(--text);
+      margin-bottom: 22px;
+      animation: fd 0.6s 0.1s ease both;
+    }
+    .hl  { color: var(--gold); }
+    .hl2 { color: var(--wa); }
+    .hl3 { color: var(--tg); }
+
+    .hero-sub {
+      font-size: clamp(15px, 2.5vw, 18px);
+      color: var(--muted); font-weight: 400;
+      max-width: 560px; margin: 0 auto 36px;
+      line-height: 1.7;
+      animation: fd 0.6s 0.2s ease both;
+    }
+    .hero-sub strong { color: var(--text); font-weight: 600; }
+
+    /* Stats row */
+    .stats {
+      display: flex; gap: 12px; flex-wrap: wrap;
+      justify-content: center; margin-bottom: 40px;
+      animation: fd 0.6s 0.3s ease both;
+    }
+    .sc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px; padding: 12px 20px;
+      text-align: center; min-width: 110px;
+    }
+    .sc .n {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.7rem; letter-spacing: 1px;
+      color: var(--gold); display: block; line-height: 1;
+      margin-bottom: 4px;
+    }
+    .sc .l { font-size: 11px; color: var(--muted); font-weight: 500; }
+
+    /* CTA Buttons */
+    .ctag {
+      display: flex; gap: 14px; flex-wrap: wrap;
+      justify-content: center;
+      animation: fd 0.6s 0.4s ease both;
+    }
+    .cbtn {
+      display: inline-flex; align-items: center; gap: 11px;
+      font-size: 15px; font-weight: 700;
+      padding: 15px 30px; border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.2s;
+      position: relative; overflow: hidden;
+      letter-spacing: 0.2px;
+    }
+    .cbtn::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.12), transparent);
+    }
+    .cbtn:hover { transform: translateY(-3px) scale(1.02); }
+    .cbtn:active { transform: scale(0.98); }
+    .cwa { background: var(--wa); color: #fff; box-shadow: 0 6px 30px rgba(37,211,102,0.3); }
+    .cwa:hover { box-shadow: 0 10px 40px rgba(37,211,102,0.45); }
+    .ctg { background: var(--tg); color: #fff; box-shadow: 0 6px 30px rgba(42,171,238,0.3); }
+    .ctg:hover { box-shadow: 0 10px 40px rgba(42,171,238,0.45); }
+
+    .csub {
+      margin-top: 16px; font-size: 12px; color: var(--subtle);
+      display: flex; gap: 16px; justify-content: center;
+      animation: fd 0.6s 0.5s ease both;
+    }
+    .csub span::before { content: '✓ '; color: var(--wa); font-weight: 700; }
+
+    /* ── TICKER ── */
+    .ticker-wrap {
+      position: relative; z-index: 1;
+      background: var(--card);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden; padding: 11px 0;
+    }
+    .ticker { display: flex; gap: 0; white-space: nowrap; animation: tick 26s linear infinite; }
+    .ti {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; font-weight: 500; color: var(--muted);
+      flex-shrink: 0; padding: 0 28px;
+    }
+    .ti .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+    .ti strong { color: var(--text); font-weight: 600; }
+    @keyframes tick { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ── SECTIONS ── */
+    .sec  { position: relative; z-index: 1; padding: 80px 24px; max-width: 1120px; margin: 0 auto; }
+    .sfull { position: relative; z-index: 1; padding: 80px 24px; background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .sfull .sin { max-width: 1120px; margin: 0 auto; }
+
+    .stag  { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+    .stitle {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      letter-spacing: 1.5px; color: var(--text);
+      margin-bottom: 14px; line-height: 1;
+    }
+    .ssub { color: var(--muted); font-size: 15px; font-weight: 400; max-width: 520px; margin-bottom: 44px; line-height: 1.7; }
+
+    /* ── PLATFORM CARDS ── */
+    .jgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .jcard {
+      border-radius: 20px; padding: 32px;
+      display: flex; flex-direction: column; gap: 18px;
+      border: 1px solid; transition: transform 0.25s, box-shadow 0.25s;
+      text-decoration: none; position: relative; overflow: hidden;
+    }
+    .jcard::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent); }
+    .jcard:hover { transform: translateY(-5px); }
+    .jwa { background: rgba(37,211,102,0.07); border-color: rgba(37,211,102,0.2); }
+    .jwa:hover { box-shadow: 0 20px 50px rgba(37,211,102,0.12); border-color: rgba(37,211,102,0.4); }
+    .jtg { background: rgba(42,171,238,0.07); border-color: rgba(42,171,238,0.2); }
+    .jtg:hover { box-shadow: 0 20px 50px rgba(42,171,238,0.12); border-color: rgba(42,171,238,0.4); }
+
+    .jicon-wrap {
+      width: 52px; height: 52px; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .jwa .jicon-wrap { background: rgba(37,211,102,0.15); }
+    .jtg .jicon-wrap { background: rgba(42,171,238,0.15); }
+
+    .jtitle { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 1px; }
+    .jwa .jtitle { color: var(--wa); }
+    .jtg .jtitle { color: var(--tg); }
+    .jdesc { font-size: 14px; color: var(--muted); line-height: 1.65; }
+    .jlist { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .jlist li {
+      font-size: 13px; color: var(--muted);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .jlist li::before {
+      content: '✓'; width: 18px; height: 18px;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 9px; font-weight: 800; color: #fff; flex-shrink: 0;
+    }
+    .jwa .jlist li::before { background: var(--wa); }
+    .jtg .jlist li::before { background: var(--tg); }
+
+    .jbtn {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 14px; font-weight: 700;
+      padding: 12px 22px; border-radius: 10px;
+      color: #fff; margin-top: auto;
+      letter-spacing: 0.2px;
+      transition: opacity 0.2s;
+    }
+    .jwa .jbtn { background: var(--wa); }
+    .jtg .jbtn { background: var(--tg); }
+    .jbtn:hover { opacity: 0.88; }
+
+    /* ── DEAL CARDS ── */
+    .dgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 16px; }
+    .dcard {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px; overflow: hidden;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+    .dcard:hover { transform: translateY(-4px); border-color: var(--border2); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+    .dcard-top { padding: 20px 20px 16px; }
+    .drow { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .dplat { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--subtle); }
+    .dbadge {
+      font-size: 11px; font-weight: 700; padding: 3px 10px;
+      border-radius: 20px;
+      background: rgba(255,71,87,0.15); color: var(--red);
+      border: 1px solid rgba(255,71,87,0.3);
+    }
+    .dtitle { font-size: 14px; font-weight: 500; color: var(--text); line-height: 1.45; margin-bottom: 14px; }
+    .dprices { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+    .dnew { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 1px; color: var(--gold); line-height: 1; }
+    .dold { font-size: 13px; color: var(--subtle); text-decoration: line-through; }
+    .dtag { font-size: 12px; color: var(--subtle); padding-bottom: 4px; }
+    .dfooter { border-top: 1px solid var(--border); display: flex; }
+    .dget {
+      flex: 1; text-align: center;
+      padding: 11px 8px; font-size: 12px; font-weight: 600;
+      text-decoration: none; transition: background 0.2s;
+      letter-spacing: 0.2px;
+    }
+    .dget:first-child { border-right: 1px solid var(--border); }
+    .dgwa { color: var(--wa); }
+    .dgtg { color: var(--tg); }
+    .dgwa:hover { background: var(--wa); color: #fff; }
+    .dgtg:hover { background: var(--tg); color: #fff; }
+
+    /* ── WHY CARDS ── */
+    .wgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+    .wcard {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 18px; padding: 26px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .wcard:hover { transform: translateY(-3px); border-color: var(--border2); }
+    .wicon { width: 46px; height: 46px; border-radius: 13px; display: flex; align-items: center; justify-content: center; font-size: 20px; margin-bottom: 16px; }
+    .wtitle { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+    .wdesc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+    /* ── PLATFORMS ── */
+    .prow { display: flex; flex-wrap: wrap; gap: 10px; }
+    .ppill {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 10px 18px;
+      font-size: 14px; font-weight: 500; color: var(--muted);
+      transition: border-color 0.2s, color 0.2s;
+      display: flex; align-items: center; gap: 7px;
+    }
+    .ppill:hover { border-color: var(--border2); color: var(--text); }
+
+    /* ── TESTIMONIALS ── */
+    .tgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; }
+    .tcard { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 26px; }
+    .tstars { color: var(--gold); font-size: 13px; letter-spacing: 3px; margin-bottom: 12px; }
+    .ttext { font-size: 14px; color: var(--muted); line-height: 1.75; margin-bottom: 18px; font-style: italic; }
+    .tauth { display: flex; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .tavt { width: 38px; height: 38px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: #fff; flex-shrink: 0; }
+    .tname { font-size: 14px; font-weight: 600; color: var(--text); }
+    .tmeta { font-size: 11px; color: var(--subtle); margin-top: 2px; }
+    .tmeta-wa { color: var(--wa); }
+    .tmeta-tg { color: var(--tg); }
+
+    /* ── FINAL CTA ── */
+    .fcta {
+      position: relative; z-index: 1;
+      margin: 0 20px 80px;
+      border-radius: 24px;
+      background: var(--card);
+      border: 1px solid rgba(245,166,35,0.2);
+      padding: 64px 32px; text-align: center; overflow: hidden;
+    }
+    .fcta::before { content: ''; position: absolute; top: -120px; right: -120px; width: 420px; height: 420px; background: radial-gradient(circle, rgba(37,211,102,0.1), transparent 70%); pointer-events: none; }
+    .fcta::after  { content: ''; position: absolute; bottom: -120px; left: -120px; width: 420px; height: 420px; background: radial-gradient(circle, rgba(42,171,238,0.07), transparent 70%); pointer-events: none; }
+    .fcta h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      letter-spacing: 2px; color: var(--text);
+      margin-bottom: 14px; position: relative; z-index: 1;
+    }
+    .fcta p { color: var(--muted); font-size: 16px; margin-bottom: 36px; position: relative; z-index: 1; }
+    .fbtns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
+    .fnote { margin-top: 18px; font-size: 12px; color: var(--subtle); position: relative; z-index: 1; }
+    .fnote span::before { content: '✓ '; color: var(--wa); font-weight: 700; }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative; z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+      font-size: 12px; color: var(--subtle);
+    }
+    footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    footer a:hover { color: var(--text); }
+    .flinks { display: flex; gap: 20px; }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @keyframes fd { from{opacity:0;transform:translateY(-18px)} to{opacity:1;transform:translateY(0)} }
+
+    /* ── MOBILE ── */
+    @media (max-width: 640px) {
+      nav { padding: 0 18px; }
+      .nbtn span { display: none; }
+      .hero { padding: 100px 20px 52px; }
+      .ctag { flex-direction: column; align-items: center; }
+      .cbtn { width: 100%; max-width: 320px; justify-content: center; }
+      .sec  { padding: 60px 20px; }
+      .sfull { padding: 60px 20px; }
+      .jgrid { grid-template-columns: 1fr; }
+      .fcta { margin: 0 14px 60px; padding: 44px 22px; }
+      .fbtns { flex-direction: column; align-items: center; }
+      footer { flex-direction: column; text-align: center; padding: 24px 20px; }
     }
   </style>
 </head>
@@ -149,8 +419,9 @@
   <div class="blob b2"></div>
   <div class="blob b3"></div>
 
+  <!-- NAV -->
   <nav>
-    <div class="nav-logo">&#9889; Flash<span>Deals</span>India</div>
+    <div class="nav-logo">⚡ Flash<span>Deals</span>India</div>
     <div class="nav-links">
       <a class="nbtn nwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank" rel="noopener">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.118 1.523 5.847L0 24l6.335-1.502A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.374l-.36-.214-3.727.883.936-3.618-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
@@ -163,15 +434,18 @@
     </div>
   </nav>
 
+  <!-- HERO -->
   <div class="hero">
-    <div class="eyebrow">Live Deals &#8212; Updated Every Minute</div>
-    <h1>India Ka <span class="hl">Sabse Sasta</span><br/><span class="hl2">WhatsApp</span> &amp; <span class="hl3">Telegram</span><br/>Deal Channel</h1>
-    <p class="hsub"><strong>Amazon, Flipkart, Myntra</strong> ke best deals &#8212; seconds mein tumhare phone pe.<br/>Join karo <strong>WhatsApp</strong> ya <strong>Telegram</strong> &#8212; dono <strong>bilkul FREE!</strong></p>
+    <div class="eyebrow">Live Deals — Updated Every Minute</div>
+    <h1>India's Best<br/><span class="hl">Deal Alerts</span><br/>On <span class="hl2">WhatsApp</span> &amp; <span class="hl3">Telegram</span></h1>
+    <p class="hero-sub">
+      Get the best deals from <strong>Amazon, Flipkart &amp; Myntra</strong> sent straight to your phone — the moment they go live. Completely free.
+    </p>
     <div class="stats">
-      <div class="sc"><span class="n">&#8377;4,200</span><span class="l">Avg. Monthly Savings</span></div>
+      <div class="sc"><span class="n">₹4,200</span><span class="l">Avg. Monthly Savings</span></div>
       <div class="sc"><span class="n">24/7</span><span class="l">Live Deal Alerts</span></div>
-      <div class="sc"><span class="n">2</span><span class="l">Platforms &#8212; WA &amp; TG</span></div>
-      <div class="sc"><span class="n">100%</span><span class="l">Free Forever</span></div>
+      <div class="sc"><span class="n">2</span><span class="l">Platforms — WA &amp; TG</span></div>
+      <div class="sc"><span class="n">FREE</span><span class="l">Always Free</span></div>
     </div>
     <div class="ctag">
       <a class="cbtn cwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank" rel="noopener">
@@ -183,166 +457,241 @@
         Join Telegram Channel
       </a>
     </div>
-    <p class="csub"><span>&#10003; Free</span> &nbsp;&#183;&nbsp; <span>&#10003; No Spam</span> &nbsp;&#183;&nbsp; <span>&#10003; Leave Anytime</span> &nbsp;&#183;&nbsp; <span>&#10003; Instant Alerts</span></p>
+    <div class="csub">
+      <span>100% Free</span>
+      <span>No Spam</span>
+      <span>Leave Anytime</span>
+      <span>Instant Alerts</span>
+    </div>
   </div>
 
+  <!-- TICKER -->
   <div class="ticker-wrap" aria-hidden="true">
     <div class="ticker">
-      <span class="ti"><span class="dot"></span>boAt Earbuds &#8377;699 &#8212; 77% OFF on Amazon</span>
-      <span class="ti"><span class="dot"></span>Ninja Air Fryer &#8377;2,499 on Flipkart</span>
-      <span class="ti"><span class="dot"></span>Myntra EORS Sale &#8212; Up to 80% Off</span>
-      <span class="ti"><span class="dot"></span>Samsung 43" TV &#8377;28,990 on Amazon</span>
-      <span class="ti"><span class="dot"></span>Perfume Set &#8377;99 &#8212; Amazon's Choice</span>
-      <span class="ti"><span class="dot"></span>Xiaomi Earphones &#8377;399 on Flipkart</span>
-      <span class="ti"><span class="dot"></span>Nike Shoes 60% OFF on Myntra</span>
-      <span class="ti"><span class="dot"></span>boAt Earbuds &#8377;699 &#8212; 77% OFF on Amazon</span>
-      <span class="ti"><span class="dot"></span>Ninja Air Fryer &#8377;2,499 on Flipkart</span>
-      <span class="ti"><span class="dot"></span>Myntra EORS Sale &#8212; Up to 80% Off</span>
-      <span class="ti"><span class="dot"></span>Samsung 43" TV &#8377;28,990 on Amazon</span>
-      <span class="ti"><span class="dot"></span>Perfume Set &#8377;99 &#8212; Amazon's Choice</span>
-      <span class="ti"><span class="dot"></span>Xiaomi Earphones &#8377;399 on Flipkart</span>
-      <span class="ti"><span class="dot"></span>Nike Shoes 60% OFF on Myntra</span>
+      <span class="ti"><span class="dot"></span><strong>boAt Earbuds</strong> — ₹699 on Amazon · 77% OFF</span>
+      <span class="ti"><span class="dot"></span><strong>Ninja Air Fryer</strong> — ₹2,499 on Flipkart · 50% OFF</span>
+      <span class="ti"><span class="dot"></span><strong>Myntra EORS Sale</strong> — Up to 80% OFF on Fashion</span>
+      <span class="ti"><span class="dot"></span><strong>Samsung 43" 4K TV</strong> — ₹28,990 on Amazon</span>
+      <span class="ti"><span class="dot"></span><strong>Perfume Set</strong> — ₹99 on Amazon · Amazon's Choice</span>
+      <span class="ti"><span class="dot"></span><strong>Nike Shoes</strong> — 60% OFF on Myntra</span>
+      <span class="ti"><span class="dot"></span><strong>boAt Earbuds</strong> — ₹699 on Amazon · 77% OFF</span>
+      <span class="ti"><span class="dot"></span><strong>Ninja Air Fryer</strong> — ₹2,499 on Flipkart · 50% OFF</span>
+      <span class="ti"><span class="dot"></span><strong>Myntra EORS Sale</strong> — Up to 80% OFF on Fashion</span>
+      <span class="ti"><span class="dot"></span><strong>Samsung 43" 4K TV</strong> — ₹28,990 on Amazon</span>
+      <span class="ti"><span class="dot"></span><strong>Perfume Set</strong> — ₹99 on Amazon · Amazon's Choice</span>
+      <span class="ti"><span class="dot"></span><strong>Nike Shoes</strong> — 60% OFF on Myntra</span>
     </div>
   </div>
 
-  <div class="jboth">
-    <div style="text-align:center;margin-bottom:32px;">
-      <div class="stag reveal" style="display:inline-block;">Choose Your Platform</div>
-      <h2 class="stitle reveal" style="margin-bottom:8px;">Kahan Join Karna Hai?<br/>Dono Free Hain! &#127881;</h2>
-      <p style="color:var(--muted);font-size:14px;" class="reveal">Same deals, dono jagah &#8212; apna pasandida platform choose karo</p>
-    </div>
-    <div class="jgrid reveal">
-      <a class="jcard jwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank" rel="noopener">
-        <div class="jicon">&#128172;</div>
-        <div class="jtitle">WhatsApp Channel</div>
-        <div class="jdesc">WhatsApp pe already ho? Seedha channel join karo &#8212; koi alag app nahi chahiye. Deals directly WhatsApp notifications mein.</div>
-        <ul class="jlist"><li>&#10003; No extra app needed</li><li>&#10003; Instant push notifications</li><li>&#10003; 100% free, no spam</li></ul>
-        <div class="jbtn" style="background:var(--wa);">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.118 1.523 5.847L0 24l6.335-1.502A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.374l-.36-.214-3.727.883.936-3.618-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
-          Join on WhatsApp &#8594;
-        </div>
-      </a>
-      <a class="jcard jtg" href="https://t.me/top_flash_deals_india" target="_blank" rel="noopener">
-        <div class="jicon">&#9992;&#65039;</div>
-        <div class="jtitle">Telegram Channel</div>
-        <div class="jdesc">Telegram use karte ho? Hamare channel pe same amazing deals milenge &#8212; faster delivery aur better media quality ke saath.</div>
-        <ul class="jlist"><li>&#10003; Faster notifications</li><li>&#10003; Better media quality</li><li>&#10003; Search all past deals</li></ul>
-        <div class="jbtn" style="background:var(--tg);">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.01 13.617l-2.99-.935c-.65-.204-.664-.65.135-.961l11.66-4.498c.537-.194 1.006.131.834.998h.245z"/></svg>
-          Join on Telegram &#8594;
-        </div>
-      </a>
+  <!-- CHOOSE PLATFORM -->
+  <div class="sfull">
+    <div class="sin">
+      <div style="margin-bottom:40px;">
+        <div class="stag reveal">Choose Your Platform</div>
+        <h2 class="stitle reveal">Pick What Works For You</h2>
+        <p class="ssub reveal" style="margin-bottom:0;">Same great deals on both platforms — pick the one you use most. Both are free.</p>
+      </div>
+      <div class="jgrid reveal">
+        <a class="jcard jwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank" rel="noopener">
+          <div class="jicon-wrap">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.118 1.523 5.847L0 24l6.335-1.502A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.374l-.36-.214-3.727.883.936-3.618-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+          </div>
+          <div class="jtitle">WhatsApp Channel</div>
+          <div class="jdesc">Already on WhatsApp? No extra app needed. Deals pop up as notifications the second they go live.</div>
+          <ul class="jlist">
+            <li>No extra app needed</li>
+            <li>Instant push notifications</li>
+            <li>100% free, zero spam</li>
+          </ul>
+          <div class="jbtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.118 1.523 5.847L0 24l6.335-1.502A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.374l-.36-.214-3.727.883.936-3.618-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+            Join on WhatsApp →
+          </div>
+        </a>
+        <a class="jcard jtg" href="https://t.me/top_flash_deals_india" target="_blank" rel="noopener">
+          <div class="jicon-wrap">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="#2AABEE"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.01 13.617l-2.99-.935c-.65-.204-.664-.65.135-.961l11.66-4.498c.537-.194 1.006.131.834.998h.245z"/></svg>
+          </div>
+          <div class="jtitle">Telegram Channel</div>
+          <div class="jdesc">Prefer Telegram? Get the same deals with faster delivery, better image quality, and full deal history you can search anytime.</div>
+          <ul class="jlist">
+            <li>Faster notifications</li>
+            <li>Better image quality</li>
+            <li>Search all past deals</li>
+          </ul>
+          <div class="jbtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.01 13.617l-2.99-.935c-.65-.204-.664-.65.135-.961l11.66-4.498c.537-.194 1.006.131.834.998h.245z"/></svg>
+            Join on Telegram →
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 
-  <section class="sec" aria-label="Sample Deals">
-    <div class="stag reveal">Today's Hot Deals</div>
-    <h2 class="stitle reveal">Aaj Ki <span style="color:var(--accent)">Dhamakedaar</span> Deals &#128293;</h2>
-    <p class="ssub reveal">Yeh sirf jhaanki hai &#8212; full deals <strong style="color:var(--text)">WhatsApp &amp; Telegram pe seconds mein milti hain!</strong></p>
+  <!-- TODAY'S DEALS -->
+  <div class="sec">
+    <div class="stag reveal">Featured Deals</div>
+    <h2 class="stitle reveal">Today's Best Picks 🔥</h2>
+    <p class="ssub reveal">Just a small taste — full deals are posted live on our channels every single day.</p>
     <div class="dgrid">
       <div class="dcard reveal">
-        <div class="dplat">Amazon India</div>
-        <div class="dtitle">boAt Airdopes 141 Bluetooth Earbuds</div>
-        <div class="dprices"><span class="dold">&#8377;2,999</span><span class="dnew">&#8377;699</span></div>
-        <div class="dbadge">77% OFF</div>
-        <div class="dtag">&#9889; Limited Stock &#8212; Ends Today</div>
+        <div class="dcard-top">
+          <div class="drow"><span class="dplat">Amazon India</span><span class="dbadge">77% OFF</span></div>
+          <div class="dtitle">boAt Airdopes 141 True Wireless Earbuds</div>
+          <div class="dprices"><span class="dnew">₹699</span><span class="dold">₹2,999</span></div>
+          <div class="dtag">⚡ Limited stock — ends today</div>
+        </div>
         <div class="dfooter">
-          <a class="dget dwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp pe Pao</a>
-          <a class="dget dtgg" href="https://t.me/top_flash_deals_india" target="_blank">Telegram pe Pao</a>
+          <a class="dget dgwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">Get on WhatsApp</a>
+          <a class="dget dgtg" href="https://t.me/top_flash_deals_india" target="_blank">Get on Telegram</a>
         </div>
       </div>
       <div class="dcard reveal">
-        <div class="dplat">Flipkart</div>
-        <div class="dtitle">Xiaomi Smart Band 8 Fitness Tracker</div>
-        <div class="dprices"><span class="dold">&#8377;3,499</span><span class="dnew">&#8377;1,299</span></div>
-        <div class="dbadge">63% OFF</div>
-        <div class="dtag">&#9889; Flash Sale &#8212; 4 Hours Left</div>
+        <div class="dcard-top">
+          <div class="drow"><span class="dplat">Flipkart</span><span class="dbadge">63% OFF</span></div>
+          <div class="dtitle">Xiaomi Smart Band 8 Fitness Tracker</div>
+          <div class="dprices"><span class="dnew">₹1,299</span><span class="dold">₹3,499</span></div>
+          <div class="dtag">⚡ Flash sale — 4 hours left</div>
+        </div>
         <div class="dfooter">
-          <a class="dget dwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp pe Pao</a>
-          <a class="dget dtgg" href="https://t.me/top_flash_deals_india" target="_blank">Telegram pe Pao</a>
+          <a class="dget dgwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">Get on WhatsApp</a>
+          <a class="dget dgtg" href="https://t.me/top_flash_deals_india" target="_blank">Get on Telegram</a>
         </div>
       </div>
       <div class="dcard reveal">
-        <div class="dplat">Amazon India</div>
-        <div class="dtitle">Next English Leather Perfume Gift Set</div>
-        <div class="dprices"><span class="dold">&#8377;999</span><span class="dnew">&#8377;99</span></div>
-        <div class="dbadge">90% OFF</div>
-        <div class="dtag">&#9889; Amazon's Choice</div>
+        <div class="dcard-top">
+          <div class="drow"><span class="dplat">Amazon India</span><span class="dbadge">90% OFF</span></div>
+          <div class="dtitle">Next English Leather Perfume Gift Set</div>
+          <div class="dprices"><span class="dnew">₹99</span><span class="dold">₹999</span></div>
+          <div class="dtag">⚡ Amazon's Choice · Top rated</div>
+        </div>
         <div class="dfooter">
-          <a class="dget dwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp pe Pao</a>
-          <a class="dget dtgg" href="https://t.me/top_flash_deals_india" target="_blank">Telegram pe Pao</a>
+          <a class="dget dgwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">Get on WhatsApp</a>
+          <a class="dget dgtg" href="https://t.me/top_flash_deals_india" target="_blank">Get on Telegram</a>
         </div>
       </div>
       <div class="dcard reveal">
-        <div class="dplat">Myntra</div>
-        <div class="dtitle">Nike Running Shoes &#8212; Multiple Sizes</div>
-        <div class="dprices"><span class="dold">&#8377;5,499</span><span class="dnew">&#8377;2,199</span></div>
-        <div class="dbadge">60% OFF</div>
-        <div class="dtag">&#9889; Free Delivery Included</div>
+        <div class="dcard-top">
+          <div class="drow"><span class="dplat">Myntra</span><span class="dbadge">60% OFF</span></div>
+          <div class="dtitle">Nike Running Shoes — Multiple Sizes Available</div>
+          <div class="dprices"><span class="dnew">₹2,199</span><span class="dold">₹5,499</span></div>
+          <div class="dtag">⚡ Free delivery included</div>
+        </div>
         <div class="dfooter">
-          <a class="dget dwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp pe Pao</a>
-          <a class="dget dtgg" href="https://t.me/top_flash_deals_india" target="_blank">Telegram pe Pao</a>
+          <a class="dget dgwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">Get on WhatsApp</a>
+          <a class="dget dgtg" href="https://t.me/top_flash_deals_india" target="_blank">Get on Telegram</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="sec" aria-label="Why Join">
-    <div class="stag reveal">Why Us</div>
-    <h2 class="stitle reveal">Kyun Join Karna <span style="color:var(--accent2)">Zaruri Hai?</span></h2>
-    <p class="ssub reveal">India ke shoppers hum pe trust karte hain &#8212; WhatsApp aur Telegram dono pe.</p>
-    <div class="wgrid">
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(245,158,11,0.1)">&#9889;</div><div class="wtitle">Seconds Mein Alert</div><div class="wdesc">Deal live hoti hai &#8212; turant WhatsApp ya Telegram notification. Flash deals kabhi miss nahi hongi.</div></div>
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(16,185,129,0.1)">&#128176;</div><div class="wtitle">&#8377;4,200+ Bachao Monthly</div><div class="wdesc">Amazon, Flipkart, Myntra &#8212; sabse sasta platform batate hain. Best price guaranteed.</div></div>
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(34,158,217,0.1)">&#128241;</div><div class="wtitle">WhatsApp + Telegram</div><div class="wdesc">Dono platforms pe available &#8212; jo bhi tumhara favourite ho, wahan deals milenge. Double coverage!</div></div>
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(59,130,246,0.1)">&#127919;</div><div class="wtitle">Curated Deals Only</div><div class="wdesc">Sirf genuine deals. No spam, no fake discounts &#8212; only verified real price drops.</div></div>
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(245,158,11,0.1)">&#128202;</div><div class="wtitle">Price Comparison</div><div class="wdesc">Amazon vs Flipkart vs Myntra &#8212; compare karke batate hain. Hamesha best deal milegi.</div></div>
-      <div class="wcard reveal"><div class="wicon" style="background:rgba(239,68,68,0.1)">&#128274;</div><div class="wtitle">100% Free &#8212; Always</div><div class="wdesc">Koi subscription nahi. WhatsApp ya Telegram &#8212; dono free hain. Join karo, kabhi bhi leave karo.</div></div>
+  <!-- WHY JOIN -->
+  <div class="sfull">
+    <div class="sin">
+      <div class="stag reveal">Why Join Us</div>
+      <h2 class="stitle reveal">Smart Shopping Starts Here</h2>
+      <p class="ssub reveal">Everything you need to stop overpaying — delivered free to your phone.</p>
+      <div class="wgrid">
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(245,166,35,0.1)">⚡</div>
+          <div class="wtitle">Instant Alerts</div>
+          <div class="wdesc">The moment a deal goes live, you get notified on WhatsApp or Telegram. Never miss a flash sale again.</div>
+        </div>
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(37,211,102,0.1)">💰</div>
+          <div class="wtitle">Save ₹4,200+ Monthly</div>
+          <div class="wdesc">Our members save an average of ₹4,200 every month just by buying at the right time from the right place.</div>
+        </div>
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(42,171,238,0.1)">📱</div>
+          <div class="wtitle">WhatsApp &amp; Telegram</div>
+          <div class="wdesc">Available on both platforms — get deals on whichever app you prefer. Double the coverage, zero extra cost.</div>
+        </div>
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(245,166,35,0.1)">🎯</div>
+          <div class="wtitle">Only Real Deals</div>
+          <div class="wdesc">Every deal is hand-picked and verified. No spam, no fake discounts — only genuine price drops worth your attention.</div>
+        </div>
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(42,171,238,0.1)">📊</div>
+          <div class="wtitle">Price Comparison</div>
+          <div class="wdesc">We check Amazon, Flipkart and Myntra so you always buy from the cheapest source. No manual research needed.</div>
+        </div>
+        <div class="wcard reveal">
+          <div class="wicon" style="background:rgba(255,71,87,0.1)">🔒</div>
+          <div class="wtitle">Always Free</div>
+          <div class="wdesc">No subscription, no hidden fees. Join on WhatsApp or Telegram and leave at any time — no strings attached.</div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <section class="sec" aria-label="Platforms" style="text-align:center;">
-    <div class="stag reveal" style="display:flex;justify-content:center;">Platforms</div>
-    <h2 class="stitle reveal">Sab Covered Hai &#128722;</h2>
-    <p class="ssub reveal" style="margin:0 auto;">Amazon se Myntra tak &#8212; har platform ki best deals WhatsApp &amp; Telegram pe.</p>
+  <!-- PLATFORMS -->
+  <div class="sec">
+    <div class="stag reveal">Coverage</div>
+    <h2 class="stitle reveal">All Major Platforms Covered 🛒</h2>
+    <p class="ssub reveal">We track deals across every big Indian shopping platform so you never have to.</p>
     <div class="prow reveal">
-      <div class="ppill">&#128717; Amazon India</div>
-      <div class="ppill">&#127919; Flipkart</div>
-      <div class="ppill">&#128525; Myntra</div>
-      <div class="ppill">&#127991; Meesho</div>
-      <div class="ppill">&#129514; Nykaa</div>
-      <div class="ppill">&#127828; Swiggy / Zomato</div>
-      <div class="ppill">&#9992;&#65039; Travel Deals</div>
+      <div class="ppill">🛍️ Amazon India</div>
+      <div class="ppill">🎯 Flipkart</div>
+      <div class="ppill">👗 Myntra</div>
+      <div class="ppill">🏷️ Meesho</div>
+      <div class="ppill">💄 Nykaa</div>
+      <div class="ppill">🍔 Swiggy &amp; Zomato</div>
+      <div class="ppill">✈️ Travel Deals</div>
+      <div class="ppill">📱 Tech &amp; Electronics</div>
     </div>
-  </section>
+  </div>
 
-  <section class="sec" aria-label="Testimonials">
-    <div class="stag reveal">Reviews</div>
-    <h2 class="stitle reveal">Logon Ne Kya <span style="color:var(--accent)">Kaha?</span></h2>
-    <p class="ssub reveal">Real members, real savings &#8212; WhatsApp aur Telegram dono pe!</p>
-    <div class="tgrid">
-      <div class="tcard reveal">
-        <div class="tstars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="ttext">"Pehle hi hafte mein &#8377;2,800 bachaye! boAt earbuds &#8377;699 mein mile &#8212; WhatsApp pe alert aaya aur turant order kar diya!"</div>
-        <div class="tauth"><div class="tavt" style="background:#F59E0B;">R</div><div><div class="tname">Rahul Sharma</div><div class="tloc">Delhi, India</div><div class="tvia tvwa">via WhatsApp Channel</div></div></div>
-      </div>
-      <div class="tcard reveal">
-        <div class="tstars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="ttext">"Telegram pe 3 dresses &#8377;1,500 mein liye jo normally &#8377;6,000 ki thi. Channel ne hi bataya warna miss ho jaata!"</div>
-        <div class="tauth"><div class="tavt" style="background:#229ED9;">P</div><div><div class="tname">Priya Verma</div><div class="tloc">Mumbai, India</div><div class="tvia tvtg">via Telegram Channel</div></div></div>
-      </div>
-      <div class="tcard reveal">
-        <div class="tstars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="ttext">"Samsung TV &#8377;28,990 mein &#8212; WhatsApp alert aaya, Amazon pe check kiya sach mein itna sasta tha. TV ghar aa gaya!"</div>
-        <div class="tauth"><div class="tavt" style="background:#10B981;">A</div><div><div class="tname">Amit Gupta</div><div class="tloc">Bangalore, India</div><div class="tvia tvwa">via WhatsApp Channel</div></div></div>
+  <!-- TESTIMONIALS -->
+  <div class="sfull">
+    <div class="sin">
+      <div class="stag reveal">Member Stories</div>
+      <h2 class="stitle reveal">What Our Members Say</h2>
+      <p class="ssub reveal">Real people, real savings — on WhatsApp and Telegram both.</p>
+      <div class="tgrid">
+        <div class="tcard reveal">
+          <div class="tstars">★★★★★</div>
+          <div class="ttext">"Saved ₹2,800 in my first week! Got the boAt earbuds alert on WhatsApp and placed the order immediately. Could not believe the price."</div>
+          <div class="tauth">
+            <div class="tavt" style="background:#F5A623;">R</div>
+            <div>
+              <div class="tname">Rahul Sharma</div>
+              <div class="tmeta"><span class="tmeta-wa">via WhatsApp Channel</span> · Delhi</div>
+            </div>
+          </div>
+        </div>
+        <div class="tcard reveal">
+          <div class="tstars">★★★★★</div>
+          <div class="ttext">"Bought 3 dresses from Myntra for ₹1,500 total — they were ₹6,000 before the sale. The Telegram alert came first and I grabbed them right away."</div>
+          <div class="tauth">
+            <div class="tavt" style="background:#2AABEE;">P</div>
+            <div>
+              <div class="tname">Priya Verma</div>
+              <div class="tmeta"><span class="tmeta-tg">via Telegram Channel</span> · Mumbai</div>
+            </div>
+          </div>
+        </div>
+        <div class="tcard reveal">
+          <div class="tstars">★★★★★</div>
+          <div class="ttext">"Got the Samsung TV deal alert on WhatsApp — ₹28,990 for a 43 inch 4K TV. Checked on Amazon, it was real. Ordered instantly. TV is in my living room now!"</div>
+          <div class="tauth">
+            <div class="tavt" style="background:#25D366;">A</div>
+            <div>
+              <div class="tname">Amit Gupta</div>
+              <div class="tmeta"><span class="tmeta-wa">via WhatsApp Channel</span> · Bangalore</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 
+  <!-- FINAL CTA -->
   <div class="fcta reveal">
-    <h2>Ab Intezaar Kyun Karna? &#128640;</h2>
-    <p>Hazaaron Indians already paise bcha rahe hain &#8212; WhatsApp aur Telegram pe. Dono join karo &#8212; <strong style="color:var(--text)">bilkul FREE!</strong></p>
-    <div class="ctag" style="justify-content:center;">
+    <h2>Start Saving Today. It's Free. 🚀</h2>
+    <p>Thousands of smart shoppers are already getting the best deals from Amazon, Flipkart &amp; Myntra before anyone else. Join them now.</p>
+    <div class="fbtns">
       <a class="cbtn cwa" href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank" rel="noopener">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.118 1.523 5.847L0 24l6.335-1.502A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.374l-.36-.214-3.727.883.936-3.618-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
         Join WhatsApp Channel
@@ -352,22 +701,29 @@
         Join Telegram Channel
       </a>
     </div>
-    <p style="margin-top:16px;font-size:12px;color:var(--muted);margin-bottom:0;">&#10003; No subscription &nbsp;&#183;&nbsp; &#10003; No spam &nbsp;&#183;&nbsp; &#10003; Leave anytime &nbsp;&#183;&nbsp; &#10003; Contains affiliate links</p>
+    <div class="fnote">
+      <span>No subscription</span> &nbsp;·&nbsp;
+      <span>No spam</span> &nbsp;·&nbsp;
+      <span>Leave anytime</span> &nbsp;·&nbsp;
+      <span>Contains affiliate links</span>
+    </div>
   </div>
 
+  <!-- FOOTER -->
   <footer>
-    <p>&#169; 2026 Flash Deals India &nbsp;&#183;&nbsp;
-      <a href="https://www.instagram.com/flash.dealsindia" target="_blank">Instagram</a> &nbsp;&#183;&nbsp;
-      <a href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp Channel</a> &nbsp;&#183;&nbsp;
-      <a href="https://t.me/top_flash_deals_india" target="_blank">Telegram Channel</a>
-    </p>
-    <p style="margin-top:8px;">This page contains affiliate links. We may earn a small commission when you buy through our links &#8212; at no extra cost to you.</p>
+    <div>© 2026 Flash Deals India. All rights reserved.</div>
+    <div class="flinks">
+      <a href="https://www.instagram.com/flash.dealsindia" target="_blank">Instagram</a>
+      <a href="https://whatsapp.com/channel/0029Vb7RV3v42DcfHcg0Kz46" target="_blank">WhatsApp</a>
+      <a href="https://t.me/top_flash_deals_india" target="_blank">Telegram</a>
+    </div>
+    <div>Contains affiliate links. We may earn a commission at no extra cost to you.</div>
   </footer>
 
   <script>
     const obs = new IntersectionObserver((entries) => {
-      entries.forEach((e, i) => { if(e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80); });
-    }, { threshold: 0.1 });
+      entries.forEach((e, i) => { if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 85); });
+    }, { threshold: 0.08 });
     document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   </script>
 </body>
